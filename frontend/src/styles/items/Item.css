@@ -1,0 +1,31 @@
+/* Item.css */
+.item-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-actions {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* Adjust styles for the edit and delete icons */
+  
