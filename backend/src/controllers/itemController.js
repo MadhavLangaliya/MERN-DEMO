@@ -68,7 +68,7 @@ exports.getItemById = async (req, res) => {
     const item = await Item.findById(id);
 
     if (!item) {
-      return res.status(404).json({ message: 'Item not found' });
+      return res.status(404).json({ message: 'The Item not found' });
     }
 
     res.json(item);
